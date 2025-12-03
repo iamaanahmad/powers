@@ -1,6 +1,6 @@
 ---
 name: "terraform"
-displayName: "Terraform"
+displayName: "Deploy infrastructure with Terraform"
 description: "Build and manage Infrastructure as Code with Terraform - access registry providers, modules, policies, and HCP Terraform workflow management"
 keywords: ["terraform", "hashicorp", "infrastructure", "iac", "hcp", "providers", "modules", "registry"]
 author: "HashiCorp"
