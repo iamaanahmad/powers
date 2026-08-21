@@ -106,9 +106,9 @@ Documentation is available at https://kiro.dev/docs/powers/
 ---
 
 ### appwrite
-**Appwrite Backend Platform** - Build and manage Appwrite Cloud backends with databases, authentication, storage, functions, messaging, sites, and current documentation.
+**Appwrite Backend Platform** - Build and manage Appwrite Cloud or self-hosted backends with databases, authentication, storage, functions, messaging, sites, and current documentation.
 
-**MCP Server:** appwrite (`https://mcp.appwrite.io/`, OAuth)
+**MCP Servers:** appwrite-cloud (OAuth, enabled), appwrite-self-hosted (uvx, disabled)
 
 ---
 
