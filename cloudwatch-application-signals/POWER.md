@@ -1,10 +1,31 @@
 ---
 name: "cloudwatch-application-signals"
-displayName: "AWS Application Signals"
-description: "Monitor service health, analyze SLO compliance, and perform root cause analysis with distributed tracing and audit capabilities"
+displayName: "[DEPRECATED] Amazon CloudWatch Application Signals"
+description: ":warning: DEPRECATED: This power has been merged into the AWS Observability power, which provides expanded capabilities including CloudWatch Logs, Metrics, Alarms, Application Signals (APM), CloudTrail security auditing, and automated codebase observability gap analysis. We recommend installing the AWS Observability power for a more comprehensive monitoring experience. See steps in `Migrating to AWS Observability power`"
 keywords: ["application-signals", "aws", "observability", "apm", "slo", "traces", "monitoring", "cloudwatch", "audit"]
 author: "AWS"
 ---
+
+# Migrating to AWS Observability power
+
+1. **Install the AWS Observability power:**
+- Open Kiro Powers panel
+- Search for "AWS Observability"
+- Click Install
+
+2. **Uninstall this power:**
+- Your Application Signals MCP server will continue working
+- All functionality is available in AWS Observability
+
+3. **No configuration changes needed:**
+- The MCP server configuration is identical
+- All tools and workflows remain the same
+
+## Timeline
+
+- **Now:** This power is deprecated but still functional
+- **March 27, 2026:** This power will be removed from the registry
+- **After March 27, 2026::** Only available through AWS Observability power
 
 # Onboarding
 
@@ -40,7 +61,7 @@ After configuration, try: *"List all my monitored services"*
 
 # Overview
 
-The AWS Application Signals Power provides comprehensive tools for monitoring and analyzing AWS services using Application Signals. Perform service health audits, track SLO compliance, investigate performance issues, and conduct root cause analysis with distributed tracing.
+The Amazon CloudWatch Application Signals Power provides comprehensive tools for monitoring and analyzing AWS services using Application Signals. Perform service health audits, track SLO compliance, investigate performance issues, and conduct root cause analysis with distributed tracing.
 
 **Key capabilities:**
 - **Service Health Auditing** - Comprehensive health assessment with actionable insights
